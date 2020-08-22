@@ -88,7 +88,8 @@ class App extends Component {
     const { randomWord } = this.state;
     setTimeout(() => {
       this.setState({
-        previousWords: [...this.state.previousWords, randomWord]
+        previousWords: [...this.state.previousWords, randomWord],
+        hiddenWord: []
       }, () => setWords(this.state.previousWords));
     }, 1000)
     this.startGame()
