@@ -5,9 +5,20 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: 'Sora';
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.row {
+  margin: 0;
+  padding: 0;
+}
+
+.underline-span {
+  margin-right: 2rem;
+  text-align: center;
+  font-size: 4rem;
 }
