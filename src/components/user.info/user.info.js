@@ -25,7 +25,7 @@ export default function Userinfo({
   return userSubmittedInfo ? (
     <div>
       <Welcomeback userName={userName} />
-      {randomWord}
+      {/* {randomWord} */}
       <br />
       <Hiddenword hiddenWord={hiddenWord} amountOfTries={amountOfTries} />
       <Alphabetcomp
